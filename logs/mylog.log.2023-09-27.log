@@ -1,0 +1,160 @@
+2023-09-27 07:20:16 -Starting ServiceApplication on MacBook-Pro.local with PID 84762 (/Users/wangjingjie/Documents/code/project-learning/im-system/service/target/classes started by wangjingjie in /Users/wangjingjie/Documents/code/project-learning/im-system)
+2023-09-27 07:20:16 -The following profiles are active: dev
+2023-09-27 07:20:18 -Tomcat initialized with port(s): 8080 (http)
+2023-09-27 07:20:18 -Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-27 07:20:18 -Starting service [Tomcat]
+2023-09-27 07:20:18 -Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-09-27 07:20:18 -Initializing Spring embedded WebApplicationContext
+2023-09-27 07:20:18 -Root WebApplicationContext: initialization completed in 1784 ms
+2023-09-27 07:20:18 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'imUserController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.star.service.user.service.ImUserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup="", name="", description="", authenticationType=CONTAINER, type=java.lang.Object.class, mappedName="")}
+2023-09-27 07:20:18 -Stopping service [Tomcat]
+2023-09-27 07:20:18 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-09-27 07:20:18 -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.star.service.user.service.ImUserService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.star.service.user.service.ImUserService' in your configuration.
+
+2023-09-27 07:21:19 -Starting ServiceApplication on MacBook-Pro.local with PID 84803 (/Users/wangjingjie/Documents/code/project-learning/im-system/service/target/classes started by wangjingjie in /Users/wangjingjie/Documents/code/project-learning/im-system)
+2023-09-27 07:21:19 -The following profiles are active: dev
+2023-09-27 07:21:19 -Starting ServiceApplication on MacBook-Pro.local with PID 84804 (/Users/wangjingjie/Documents/code/project-learning/im-system/service/target/classes started by wangjingjie in /Users/wangjingjie/Documents/code/project-learning/im-system)
+2023-09-27 07:21:19 -The following profiles are active: dev
+2023-09-27 07:21:21 -Tomcat initialized with port(s): 8080 (http)
+2023-09-27 07:21:21 -Tomcat initialized with port(s): 8080 (http)
+2023-09-27 07:21:21 -Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-27 07:21:21 -Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-27 07:21:21 -Starting service [Tomcat]
+2023-09-27 07:21:21 -Starting service [Tomcat]
+2023-09-27 07:21:21 -Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-09-27 07:21:21 -Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-09-27 07:21:21 -Initializing Spring embedded WebApplicationContext
+2023-09-27 07:21:21 -Root WebApplicationContext: initialization completed in 1275 ms
+2023-09-27 07:21:21 -Initializing Spring embedded WebApplicationContext
+2023-09-27 07:21:21 -Root WebApplicationContext: initialization completed in 1499 ms
+2023-09-27 07:21:22 -Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-27 07:21:22 -Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-27 07:21:22 -Starting ProtocolHandler ["http-nio-8080"]
+2023-09-27 07:21:22 -Starting ProtocolHandler ["http-nio-8080"]
+2023-09-27 07:21:22 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2023-09-27 07:21:22 -Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-27 07:21:22 -Pausing ProtocolHandler ["http-nio-8080"]
+2023-09-27 07:21:22 -Stopping service [Tomcat]
+2023-09-27 07:21:22 -Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-27 07:21:22 -Stopping ProtocolHandler ["http-nio-8080"]
+2023-09-27 07:21:22 -Destroying ProtocolHandler ["http-nio-8080"]
+2023-09-27 07:21:22 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-09-27 07:21:22 -Started ServiceApplication in 3.008 seconds (JVM running for 8.83)
+2023-09-27 07:21:22 -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-09-27 07:26:37 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-27 07:26:37 -Initializing Servlet 'dispatcherServlet'
+2023-09-27 07:26:37 -Completed initialization in 6 ms
+2023-09-27 07:28:13 -Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-27 07:28:21 -Starting ServiceApplication on MacBook-Pro.local with PID 85074 (/Users/wangjingjie/Documents/code/project-learning/im-system/service/target/classes started by wangjingjie in /Users/wangjingjie/Documents/code/project-learning/im-system)
+2023-09-27 07:28:21 -The following profiles are active: dev
+2023-09-27 07:28:22 -Tomcat initialized with port(s): 8000 (http)
+2023-09-27 07:28:22 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-09-27 07:28:22 -Starting service [Tomcat]
+2023-09-27 07:28:22 -Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-09-27 07:28:22 -Initializing Spring embedded WebApplicationContext
+2023-09-27 07:28:22 -Root WebApplicationContext: initialization completed in 954 ms
+2023-09-27 07:28:22 -Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-27 07:28:23 -Starting ProtocolHandler ["http-nio-8000"]
+2023-09-27 07:28:23 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-09-27 07:28:23 -Started ServiceApplication in 2.099 seconds (JVM running for 7.889)
+2023-09-27 07:30:49 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-27 07:30:49 -Initializing Servlet 'dispatcherServlet'
+2023-09-27 07:30:49 -Completed initialization in 6 ms
+2023-09-27 07:32:29 -HikariPool-1 - Starting...
+2023-09-27 07:32:29 -HikariPool-1 - Starting...
+2023-09-27 07:32:33 -HikariPool-1 - Starting...
+2023-09-27 07:32:33 -HikariPool-1 - Starting...
+2023-09-27 07:32:41 -Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-27 07:32:50 -Starting ServiceApplication on MacBook-Pro.local with PID 85191 (/Users/wangjingjie/Documents/code/project-learning/im-system/service/target/classes started by wangjingjie in /Users/wangjingjie/Documents/code/project-learning/im-system)
+2023-09-27 07:32:50 -The following profiles are active: dev
+2023-09-27 07:32:51 -Tomcat initialized with port(s): 8000 (http)
+2023-09-27 07:32:51 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-09-27 07:32:51 -Starting service [Tomcat]
+2023-09-27 07:32:51 -Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-09-27 07:32:51 -Initializing Spring embedded WebApplicationContext
+2023-09-27 07:32:51 -Root WebApplicationContext: initialization completed in 929 ms
+2023-09-27 07:32:52 -Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-27 07:32:52 -Starting ProtocolHandler ["http-nio-8000"]
+2023-09-27 07:32:52 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-09-27 07:32:52 -Started ServiceApplication in 2.091 seconds (JVM running for 7.681)
+2023-09-27 07:33:25 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-27 07:33:25 -Initializing Servlet 'dispatcherServlet'
+2023-09-27 07:33:25 -Completed initialization in 8 ms
+2023-09-27 07:33:29 -HikariPool-1 - Starting...
+2023-09-27 07:33:29 -HikariPool-1 - Starting...
+2023-09-27 07:34:45 -Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-27 07:34:53 -Starting ServiceApplication on MacBook-Pro.local with PID 85263 (/Users/wangjingjie/Documents/code/project-learning/im-system/service/target/classes started by wangjingjie in /Users/wangjingjie/Documents/code/project-learning/im-system)
+2023-09-27 07:34:53 -The following profiles are active: dev
+2023-09-27 07:34:54 -Tomcat initialized with port(s): 8000 (http)
+2023-09-27 07:34:54 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-09-27 07:34:54 -Starting service [Tomcat]
+2023-09-27 07:34:54 -Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-09-27 07:34:54 -Initializing Spring embedded WebApplicationContext
+2023-09-27 07:34:54 -Root WebApplicationContext: initialization completed in 924 ms
+2023-09-27 07:34:54 -Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-27 07:34:54 -Starting ProtocolHandler ["http-nio-8000"]
+2023-09-27 07:34:54 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-09-27 07:34:54 -Started ServiceApplication in 2.054 seconds (JVM running for 7.651)
+2023-09-27 07:35:57 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-27 07:35:57 -Initializing Servlet 'dispatcherServlet'
+2023-09-27 07:35:57 -Completed initialization in 7 ms
+2023-09-27 07:37:16 -HikariPool-1 - Starting...
+2023-09-27 07:37:17 -HikariPool-1 - Start completed.
+2023-09-27 07:42:14 -Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-27 07:42:14 -HikariPool-1 - Shutdown initiated...
+2023-09-27 07:42:14 -HikariPool-1 - Shutdown completed.
+2023-09-27 07:42:39 -Starting ServiceApplication on MacBook-Pro.local with PID 85486 (/Users/wangjingjie/Documents/code/project-learning/im-system/service/target/classes started by wangjingjie in /Users/wangjingjie/Documents/code/project-learning/im-system)
+2023-09-27 07:42:39 -The following profiles are active: dev
+2023-09-27 07:42:51 -Tomcat initialized with port(s): 8000 (http)
+2023-09-27 07:42:51 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-09-27 07:42:51 -Starting service [Tomcat]
+2023-09-27 07:42:51 -Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-09-27 07:42:52 -Initializing Spring embedded WebApplicationContext
+2023-09-27 07:42:52 -Root WebApplicationContext: initialization completed in 11839 ms
+2023-09-27 07:43:30 -Starting ServiceApplication on MacBook-Pro.local with PID 85503 (/Users/wangjingjie/Documents/code/project-learning/im-system/service/target/classes started by wangjingjie in /Users/wangjingjie/Documents/code/project-learning/im-system)
+2023-09-27 07:43:30 -The following profiles are active: dev
+2023-09-27 07:43:34 -Tomcat initialized with port(s): 8000 (http)
+2023-09-27 07:43:34 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-09-27 07:43:34 -Starting service [Tomcat]
+2023-09-27 07:43:34 -Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-09-27 07:43:34 -Initializing Spring embedded WebApplicationContext
+2023-09-27 07:43:34 -Root WebApplicationContext: initialization completed in 4251 ms
+2023-09-27 07:43:41 -Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-27 07:43:42 -Starting ProtocolHandler ["http-nio-8000"]
+2023-09-27 07:43:42 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-09-27 07:43:42 -Started ServiceApplication in 14.065 seconds (JVM running for 21.91)
+2023-09-27 07:44:01 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-27 07:44:01 -Initializing Servlet 'dispatcherServlet'
+2023-09-27 07:44:01 -Completed initialization in 29 ms
+2023-09-27 07:44:02 -HikariPool-1 - Starting...
+2023-09-27 07:44:04 -HikariPool-1 - Start completed.
